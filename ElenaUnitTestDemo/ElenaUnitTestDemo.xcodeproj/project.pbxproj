@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E16830B91D211E5600E02674 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E16830B81D211E5600E02674 /* main.m */; };
+		E16830BC1D211E5600E02674 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E16830BB1D211E5600E02674 /* AppDelegate.m */; };
+		E16830BF1D211E5600E02674 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E16830BE1D211E5600E02674 /* ViewController.m */; };
+		E16830C21D211E5600E02674 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16830C01D211E5600E02674 /* Main.storyboard */; };
+		E16830C41D211E5600E02674 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E16830C31D211E5600E02674 /* Assets.xcassets */; };
+		E16830C71D211E5600E02674 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16830C51D211E5600E02674 /* LaunchScreen.storyboard */; };
+		E16830D21D211E5600E02674 /* ElenaUnitTestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E16830D11D211E5600E02674 /* ElenaUnitTestDemoTests.m */; };
+		E16830DD1D211E5600E02674 /* ElenaUnitTestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E16830DC1D211E5600E02674 /* ElenaUnitTestDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E16830CE1D211E5600E02674 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E16830AC1D211E5500E02674 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E16830B31D211E5500E02674;
+			remoteInfo = ElenaUnitTestDemo;
+		};
+		E16830D91D211E5600E02674 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E16830AC1D211E5500E02674 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E16830B31D211E5500E02674;
+			remoteInfo = ElenaUnitTestDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E16830B41D211E5500E02674 /* ElenaUnitTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElenaUnitTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E16830B81D211E5600E02674 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E16830BA1D211E5600E02674 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E16830BB1D211E5600E02674 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E16830BD1D211E5600E02674 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E16830BE1D211E5600E02674 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E16830C11D211E5600E02674 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E16830C31D211E5600E02674 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E16830C61D211E5600E02674 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E16830C81D211E5600E02674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E16830CD1D211E5600E02674 /* ElenaUnitTestDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElenaUnitTestDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E16830D11D211E5600E02674 /* ElenaUnitTestDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElenaUnitTestDemoTests.m; sourceTree = "<group>"; };
+		E16830D31D211E5600E02674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E16830D81D211E5600E02674 /* ElenaUnitTestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElenaUnitTestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E16830DC1D211E5600E02674 /* ElenaUnitTestDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElenaUnitTestDemoUITests.m; sourceTree = "<group>"; };
+		E16830DE1D211E5600E02674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E16830B11D211E5500E02674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16830CA1D211E5600E02674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16830D51D211E5600E02674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E16830AB1D211E5500E02674 = {
+			isa = PBXGroup;
+			children = (
+				E16830B61D211E5600E02674 /* ElenaUnitTestDemo */,
+				E16830D01D211E5600E02674 /* ElenaUnitTestDemoTests */,
+				E16830DB1D211E5600E02674 /* ElenaUnitTestDemoUITests */,
+				E16830B51D211E5500E02674 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E16830B51D211E5500E02674 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E16830B41D211E5500E02674 /* ElenaUnitTestDemo.app */,
+				E16830CD1D211E5600E02674 /* ElenaUnitTestDemoTests.xctest */,
+				E16830D81D211E5600E02674 /* ElenaUnitTestDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E16830B61D211E5600E02674 /* ElenaUnitTestDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E16830BA1D211E5600E02674 /* AppDelegate.h */,
+				E16830BB1D211E5600E02674 /* AppDelegate.m */,
+				E16830BD1D211E5600E02674 /* ViewController.h */,
+				E16830BE1D211E5600E02674 /* ViewController.m */,
+				E16830C01D211E5600E02674 /* Main.storyboard */,
+				E16830C31D211E5600E02674 /* Assets.xcassets */,
+				E16830C51D211E5600E02674 /* LaunchScreen.storyboard */,
+				E16830C81D211E5600E02674 /* Info.plist */,
+				E16830B71D211E5600E02674 /* Supporting Files */,
+			);
+			path = ElenaUnitTestDemo;
+			sourceTree = "<group>";
+		};
+		E16830B71D211E5600E02674 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E16830B81D211E5600E02674 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E16830D01D211E5600E02674 /* ElenaUnitTestDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E16830D11D211E5600E02674 /* ElenaUnitTestDemoTests.m */,
+				E16830D31D211E5600E02674 /* Info.plist */,
+			);
+			path = ElenaUnitTestDemoTests;
+			sourceTree = "<group>";
+		};
+		E16830DB1D211E5600E02674 /* ElenaUnitTestDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E16830DC1D211E5600E02674 /* ElenaUnitTestDemoUITests.m */,
+				E16830DE1D211E5600E02674 /* Info.plist */,
+			);
+			path = ElenaUnitTestDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E16830B31D211E5500E02674 /* ElenaUnitTestDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E16830E11D211E5600E02674 /* Build configuration list for PBXNativeTarget "ElenaUnitTestDemo" */;
+			buildPhases = (
+				E16830B01D211E5500E02674 /* Sources */,
+				E16830B11D211E5500E02674 /* Frameworks */,
+				E16830B21D211E5500E02674 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ElenaUnitTestDemo;
+			productName = ElenaUnitTestDemo;
+			productReference = E16830B41D211E5500E02674 /* ElenaUnitTestDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E16830CC1D211E5600E02674 /* ElenaUnitTestDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E16830E41D211E5600E02674 /* Build configuration list for PBXNativeTarget "ElenaUnitTestDemoTests" */;
+			buildPhases = (
+				E16830C91D211E5600E02674 /* Sources */,
+				E16830CA1D211E5600E02674 /* Frameworks */,
+				E16830CB1D211E5600E02674 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E16830CF1D211E5600E02674 /* PBXTargetDependency */,
+			);
+			name = ElenaUnitTestDemoTests;
+			productName = ElenaUnitTestDemoTests;
+			productReference = E16830CD1D211E5600E02674 /* ElenaUnitTestDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E16830D71D211E5600E02674 /* ElenaUnitTestDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E16830E71D211E5600E02674 /* Build configuration list for PBXNativeTarget "ElenaUnitTestDemoUITests" */;
+			buildPhases = (
+				E16830D41D211E5600E02674 /* Sources */,
+				E16830D51D211E5600E02674 /* Frameworks */,
+				E16830D61D211E5600E02674 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E16830DA1D211E5600E02674 /* PBXTargetDependency */,
+			);
+			name = ElenaUnitTestDemoUITests;
+			productName = ElenaUnitTestDemoUITests;
+			productReference = E16830D81D211E5600E02674 /* ElenaUnitTestDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E16830AC1D211E5500E02674 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = elena;
+				TargetAttributes = {
+					E16830B31D211E5500E02674 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					E16830CC1D211E5600E02674 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = E16830B31D211E5500E02674;
+					};
+					E16830D71D211E5600E02674 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = E16830B31D211E5500E02674;
+					};
+				};
+			};
+			buildConfigurationList = E16830AF1D211E5500E02674 /* Build configuration list for PBXProject "ElenaUnitTestDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E16830AB1D211E5500E02674;
+			productRefGroup = E16830B51D211E5500E02674 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E16830B31D211E5500E02674 /* ElenaUnitTestDemo */,
+				E16830CC1D211E5600E02674 /* ElenaUnitTestDemoTests */,
+				E16830D71D211E5600E02674 /* ElenaUnitTestDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E16830B21D211E5500E02674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16830C71D211E5600E02674 /* LaunchScreen.storyboard in Resources */,
+				E16830C41D211E5600E02674 /* Assets.xcassets in Resources */,
+				E16830C21D211E5600E02674 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16830CB1D211E5600E02674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16830D61D211E5600E02674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E16830B01D211E5500E02674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16830BF1D211E5600E02674 /* ViewController.m in Sources */,
+				E16830BC1D211E5600E02674 /* AppDelegate.m in Sources */,
+				E16830B91D211E5600E02674 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16830C91D211E5600E02674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16830D21D211E5600E02674 /* ElenaUnitTestDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16830D41D211E5600E02674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16830DD1D211E5600E02674 /* ElenaUnitTestDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E16830CF1D211E5600E02674 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E16830B31D211E5500E02674 /* ElenaUnitTestDemo */;
+			targetProxy = E16830CE1D211E5600E02674 /* PBXContainerItemProxy */;
+		};
+		E16830DA1D211E5600E02674 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E16830B31D211E5500E02674 /* ElenaUnitTestDemo */;
+			targetProxy = E16830D91D211E5600E02674 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E16830C01D211E5600E02674 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E16830C11D211E5600E02674 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E16830C51D211E5600E02674 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E16830C61D211E5600E02674 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E16830DF1D211E5600E02674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E16830E01D211E5600E02674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E16830E21D211E5600E02674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ElenaUnitTestDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "friday-holiday.ElenaUnitTestDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E16830E31D211E5600E02674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ElenaUnitTestDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "friday-holiday.ElenaUnitTestDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E16830E51D211E5600E02674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ElenaUnitTestDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "friday-holiday.ElenaUnitTestDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElenaUnitTestDemo.app/ElenaUnitTestDemo";
+			};
+			name = Debug;
+		};
+		E16830E61D211E5600E02674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ElenaUnitTestDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "friday-holiday.ElenaUnitTestDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElenaUnitTestDemo.app/ElenaUnitTestDemo";
+			};
+			name = Release;
+		};
+		E16830E81D211E5600E02674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ElenaUnitTestDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "friday-holiday.ElenaUnitTestDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ElenaUnitTestDemo;
+			};
+			name = Debug;
+		};
+		E16830E91D211E5600E02674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ElenaUnitTestDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "friday-holiday.ElenaUnitTestDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ElenaUnitTestDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E16830AF1D211E5500E02674 /* Build configuration list for PBXProject "ElenaUnitTestDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E16830DF1D211E5600E02674 /* Debug */,
+				E16830E01D211E5600E02674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E16830E11D211E5600E02674 /* Build configuration list for PBXNativeTarget "ElenaUnitTestDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E16830E21D211E5600E02674 /* Debug */,
+				E16830E31D211E5600E02674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E16830E41D211E5600E02674 /* Build configuration list for PBXNativeTarget "ElenaUnitTestDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E16830E51D211E5600E02674 /* Debug */,
+				E16830E61D211E5600E02674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E16830E71D211E5600E02674 /* Build configuration list for PBXNativeTarget "ElenaUnitTestDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E16830E81D211E5600E02674 /* Debug */,
+				E16830E91D211E5600E02674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E16830AC1D211E5500E02674 /* Project object */;
+}
