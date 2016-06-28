@@ -1,6 +1,7 @@
 workspace 'ElenaCode.xcworkspace'
 xcodeproj 'ElenaCode/ElenaCode.xcodeproj'
 xcodeproj 'ElenaRACDemo/ElenaRACDemo.xcodeproj'
+xcodeproj 'ElenaUnitTestDemo/ElenaUnitTestDemo.xcodeproj'
 
 target 'ElenaCode' do
  xcodeproj 'ElenaCode/ElenaCode.xcodeproj'
@@ -13,6 +14,8 @@ target 'ElenaRACDemo' do
     xcodeproj 'ElenaRACDemo/ElenaRACDemo.xcodeproj'
     pod “ReactiveCocoa”,"~> 2.0"
 end
-
-
-
+target 'ElenaUnitTestDemoTests' do
+    xcodeproj 'ElenaUnitTestDemo/ElenaUnitTestDemo.xcodeproj'
+    pod 'OCMock','~>3.0'
+    pod 'Kiwi'
+end

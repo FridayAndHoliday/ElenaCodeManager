@@ -14,6 +14,8 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - Kiwi (2.4.0)
+  - OCMock (3.3)
   - ReactiveCocoa (2.5):
     - ReactiveCocoa/UI (= 2.5)
   - ReactiveCocoa/Core (2.5):
@@ -24,12 +26,16 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking (~> 3.0)
+  - Kiwi
+  - OCMock (~> 3.0)
   - ReactiveCocoa (~> 2.0)
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
+  OCMock: d68685bde31f69cb61d518dcb39269080c78b5ed
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
 
-PODFILE CHECKSUM: 62d9d2e5f5b1cced5b02c949f76ac3adc06f36bc
+PODFILE CHECKSUM: f88709a86fa5d83eb3b6730b7efbd7a91d3fbbc3
 
 COCOAPODS: 1.0.1

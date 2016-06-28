@@ -9,12 +9,27 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Kiwi.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>OCMock.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-ElenaCode.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>Pods-ElenaRACDemo.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ElenaUnitTestDemoTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -27,7 +42,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>4A2CAA839F2722C796C6F1DFDC806B92</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4CB3F7F46945EE16A19F86EAB6FC5CAF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>5358D9E57FA643D97C667BE9658A77F0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>55C2B64EDF9F1783CB3169D7DE86F154</key>
 		<dict>
 			<key>primary</key>
 			<true/>

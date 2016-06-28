@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9843F1A16BD1F901B872D682 /* libPods-ElenaUnitTestDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E4515EBEC2B25A75E672425 /* libPods-ElenaUnitTestDemoTests.a */; };
 		E16830B91D211E5600E02674 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E16830B81D211E5600E02674 /* main.m */; };
 		E16830BC1D211E5600E02674 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E16830BB1D211E5600E02674 /* AppDelegate.m */; };
 		E16830BF1D211E5600E02674 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E16830BE1D211E5600E02674 /* ViewController.m */; };
@@ -17,6 +18,14 @@
 		E16830DD1D211E5600E02674 /* ElenaUnitTestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E16830DC1D211E5600E02674 /* ElenaUnitTestDemoUITests.m */; };
 		E168316A1D21223100E02674 /* ElenaStack.m in Sources */ = {isa = PBXBuildFile; fileRef = E16831691D21223100E02674 /* ElenaStack.m */; };
 		E168316C1D21226000E02674 /* StackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E168316B1D21226000E02674 /* StackTests.m */; };
+		E16831741D2256F900E02674 /* SimpleStringSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = E16831731D2256F900E02674 /* SimpleStringSpec.m */; };
+		E16831801D225DDC00E02674 /* TwitterConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = E168317D1D225DDC00E02674 /* TwitterConnection.m */; };
+		E16831811D225DDC00E02674 /* TwitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E168317F1D225DDC00E02674 /* TwitterViewController.m */; };
+		E16831841D225DEB00E02674 /* Twitter.m in Sources */ = {isa = PBXBuildFile; fileRef = E16831831D225DEB00E02674 /* Twitter.m */; };
+		E16831881D225EA400E02674 /* TwitterMockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E16831871D225EA400E02674 /* TwitterMockTests.m */; };
+		E168318B1D225F4200E02674 /* TwitterView.m in Sources */ = {isa = PBXBuildFile; fileRef = E168318A1D225F4200E02674 /* TwitterView.m */; };
+		E168318E1D226D2E00E02674 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = E168318D1D226D2E00E02674 /* Person.m */; };
+		E16831901D226D8F00E02674 /* PersonMockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E168318F1D226D8F00E02674 /* PersonMockTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +46,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5AFB96054424311524228B30 /* Pods-ElenaUnitTestDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElenaUnitTestDemoTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-ElenaUnitTestDemoTests/Pods-ElenaUnitTestDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E4515EBEC2B25A75E672425 /* libPods-ElenaUnitTestDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ElenaUnitTestDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFA0B23EAE52F580FEFFA422 /* Pods-ElenaUnitTestDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElenaUnitTestDemoTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-ElenaUnitTestDemoTests/Pods-ElenaUnitTestDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		E16830B41D211E5500E02674 /* ElenaUnitTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElenaUnitTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E16830B81D211E5600E02674 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E16830BA1D211E5600E02674 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -56,6 +68,19 @@
 		E16831681D21223000E02674 /* ElenaStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElenaStack.h; sourceTree = "<group>"; };
 		E16831691D21223100E02674 /* ElenaStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElenaStack.m; sourceTree = "<group>"; };
 		E168316B1D21226000E02674 /* StackTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackTests.m; sourceTree = "<group>"; };
+		E16831731D2256F900E02674 /* SimpleStringSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleStringSpec.m; sourceTree = "<group>"; };
+		E168317C1D225DDC00E02674 /* TwitterConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterConnection.h; sourceTree = "<group>"; };
+		E168317D1D225DDC00E02674 /* TwitterConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterConnection.m; sourceTree = "<group>"; };
+		E168317E1D225DDC00E02674 /* TwitterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterViewController.h; sourceTree = "<group>"; };
+		E168317F1D225DDC00E02674 /* TwitterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterViewController.m; sourceTree = "<group>"; };
+		E16831821D225DEB00E02674 /* Twitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Twitter.h; sourceTree = "<group>"; };
+		E16831831D225DEB00E02674 /* Twitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Twitter.m; sourceTree = "<group>"; };
+		E16831871D225EA400E02674 /* TwitterMockTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterMockTests.m; sourceTree = "<group>"; };
+		E16831891D225F4200E02674 /* TwitterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterView.h; sourceTree = "<group>"; };
+		E168318A1D225F4200E02674 /* TwitterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterView.m; sourceTree = "<group>"; };
+		E168318C1D226D2E00E02674 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		E168318D1D226D2E00E02674 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		E168318F1D226D8F00E02674 /* PersonMockTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonMockTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9843F1A16BD1F901B872D682 /* libPods-ElenaUnitTestDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +109,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1EFD9A9CB4121DCA16A9E3A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E4515EBEC2B25A75E672425 /* libPods-ElenaUnitTestDemoTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B08B9DA7028699A1788A32C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5AFB96054424311524228B30 /* Pods-ElenaUnitTestDemoTests.debug.xcconfig */,
+				DFA0B23EAE52F580FEFFA422 /* Pods-ElenaUnitTestDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E16830AB1D211E5500E02674 = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +133,8 @@
 				E16830D01D211E5600E02674 /* ElenaUnitTestDemoTests */,
 				E16830DB1D211E5600E02674 /* ElenaUnitTestDemoUITests */,
 				E16830B51D211E5500E02674 /* Products */,
+				B08B9DA7028699A1788A32C9 /* Pods */,
+				1EFD9A9CB4121DCA16A9E3A6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,12 +151,15 @@
 		E16830B61D211E5600E02674 /* ElenaUnitTestDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E168317B1D225DDC00E02674 /* Twitter */,
 				E16830BA1D211E5600E02674 /* AppDelegate.h */,
 				E16830BB1D211E5600E02674 /* AppDelegate.m */,
 				E16830BD1D211E5600E02674 /* ViewController.h */,
 				E16830BE1D211E5600E02674 /* ViewController.m */,
 				E16831681D21223000E02674 /* ElenaStack.h */,
 				E16831691D21223100E02674 /* ElenaStack.m */,
+				E168318C1D226D2E00E02674 /* Person.h */,
+				E168318D1D226D2E00E02674 /* Person.m */,
 				E16830C01D211E5600E02674 /* Main.storyboard */,
 				E16830C31D211E5600E02674 /* Assets.xcassets */,
 				E16830C51D211E5600E02674 /* LaunchScreen.storyboard */,
@@ -134,6 +182,9 @@
 			children = (
 				E168316B1D21226000E02674 /* StackTests.m */,
 				E16830D11D211E5600E02674 /* ElenaUnitTestDemoTests.m */,
+				E16831731D2256F900E02674 /* SimpleStringSpec.m */,
+				E16831871D225EA400E02674 /* TwitterMockTests.m */,
+				E168318F1D226D8F00E02674 /* PersonMockTests.m */,
 				E16830D31D211E5600E02674 /* Info.plist */,
 			);
 			path = ElenaUnitTestDemoTests;
@@ -146,6 +197,21 @@
 				E16830DE1D211E5600E02674 /* Info.plist */,
 			);
 			path = ElenaUnitTestDemoUITests;
+			sourceTree = "<group>";
+		};
+		E168317B1D225DDC00E02674 /* Twitter */ = {
+			isa = PBXGroup;
+			children = (
+				E168317C1D225DDC00E02674 /* TwitterConnection.h */,
+				E168317D1D225DDC00E02674 /* TwitterConnection.m */,
+				E168317E1D225DDC00E02674 /* TwitterViewController.h */,
+				E168317F1D225DDC00E02674 /* TwitterViewController.m */,
+				E16831891D225F4200E02674 /* TwitterView.h */,
+				E168318A1D225F4200E02674 /* TwitterView.m */,
+				E16831821D225DEB00E02674 /* Twitter.h */,
+				E16831831D225DEB00E02674 /* Twitter.m */,
+			);
+			path = Twitter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,9 +238,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E16830E41D211E5600E02674 /* Build configuration list for PBXNativeTarget "ElenaUnitTestDemoTests" */;
 			buildPhases = (
+				AF9247FB32FD70AA34F51C6C /* [CP] Check Pods Manifest.lock */,
 				E16830C91D211E5600E02674 /* Sources */,
 				E16830CA1D211E5600E02674 /* Frameworks */,
 				E16830CB1D211E5600E02674 /* Resources */,
+				5E52506B7F02B05EDFC81224 /* [CP] Embed Pods Frameworks */,
+				6B7A41E77E48CAC49ABF9716 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -273,6 +342,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5E52506B7F02B05EDFC81224 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-ElenaUnitTestDemoTests/Pods-ElenaUnitTestDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B7A41E77E48CAC49ABF9716 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-ElenaUnitTestDemoTests/Pods-ElenaUnitTestDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF9247FB32FD70AA34F51C6C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E16830B01D211E5500E02674 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -280,7 +397,12 @@
 			files = (
 				E16830BF1D211E5600E02674 /* ViewController.m in Sources */,
 				E16830BC1D211E5600E02674 /* AppDelegate.m in Sources */,
+				E16831801D225DDC00E02674 /* TwitterConnection.m in Sources */,
+				E16831841D225DEB00E02674 /* Twitter.m in Sources */,
 				E168316A1D21223100E02674 /* ElenaStack.m in Sources */,
+				E16831811D225DDC00E02674 /* TwitterViewController.m in Sources */,
+				E168318E1D226D2E00E02674 /* Person.m in Sources */,
+				E168318B1D225F4200E02674 /* TwitterView.m in Sources */,
 				E16830B91D211E5600E02674 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,6 +412,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E168316C1D21226000E02674 /* StackTests.m in Sources */,
+				E16831881D225EA400E02674 /* TwitterMockTests.m in Sources */,
+				E16831901D226D8F00E02674 /* PersonMockTests.m in Sources */,
+				E16831741D2256F900E02674 /* SimpleStringSpec.m in Sources */,
 				E16830D21D211E5600E02674 /* ElenaUnitTestDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,6 +568,7 @@
 		};
 		E16830E51D211E5600E02674 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AFB96054424311524228B30 /* Pods-ElenaUnitTestDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ElenaUnitTestDemoTests/Info.plist;
@@ -455,6 +581,7 @@
 		};
 		E16830E61D211E5600E02674 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFA0B23EAE52F580FEFFA422 /* Pods-ElenaUnitTestDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ElenaUnitTestDemoTests/Info.plist;
