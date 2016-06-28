@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD4E4B1C8F3B78AD79EFB91B /* libPods-ElenaCode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB15991215774AF1A61F8ECD /* libPods-ElenaCode.a */; };
+		E16831371D21217800E02674 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E16831361D21217800E02674 /* main.m */; };
+		E168313A1D21217800E02674 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E16831391D21217800E02674 /* AppDelegate.m */; };
+		E168313D1D21217800E02674 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E168313C1D21217800E02674 /* ViewController.m */; };
+		E16831401D21217800E02674 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E168313E1D21217800E02674 /* Main.storyboard */; };
+		E16831421D21217800E02674 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E16831411D21217800E02674 /* Assets.xcassets */; };
+		E16831451D21217800E02674 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16831431D21217800E02674 /* LaunchScreen.storyboard */; };
+		E16831501D21217800E02674 /* ElenaCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E168314F1D21217800E02674 /* ElenaCodeTests.m */; };
+		E168315B1D21217800E02674 /* ElenaCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E168315A1D21217800E02674 /* ElenaCodeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E168314C1D21217800E02674 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E168312A1D21217800E02674 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E16831311D21217800E02674;
+			remoteInfo = ElenaCode;
+		};
+		E16831571D21217800E02674 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E168312A1D21217800E02674 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E16831311D21217800E02674;
+			remoteInfo = ElenaCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A4459BED22CA00059C6F813 /* Pods-ElenaCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElenaCode.release.xcconfig"; path = "../Pods/Target Support Files/Pods-ElenaCode/Pods-ElenaCode.release.xcconfig"; sourceTree = "<group>"; };
+		12EBD2C086061EB4FF94CB0A /* Pods-ElenaCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElenaCode.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-ElenaCode/Pods-ElenaCode.debug.xcconfig"; sourceTree = "<group>"; };
+		AB15991215774AF1A61F8ECD /* libPods-ElenaCode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ElenaCode.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E16831321D21217800E02674 /* ElenaCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElenaCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E16831361D21217800E02674 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E16831381D21217800E02674 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E16831391D21217800E02674 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E168313B1D21217800E02674 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E168313C1D21217800E02674 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E168313F1D21217800E02674 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E16831411D21217800E02674 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E16831441D21217800E02674 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E16831461D21217800E02674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E168314B1D21217800E02674 /* ElenaCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElenaCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E168314F1D21217800E02674 /* ElenaCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElenaCodeTests.m; sourceTree = "<group>"; };
+		E16831511D21217800E02674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E16831561D21217800E02674 /* ElenaCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElenaCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E168315A1D21217800E02674 /* ElenaCodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElenaCodeUITests.m; sourceTree = "<group>"; };
+		E168315C1D21217800E02674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E168312F1D21217800E02674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4E4B1C8F3B78AD79EFB91B /* libPods-ElenaCode.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16831481D21217800E02674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16831531D21217800E02674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34AD6A4AD70BEE7F75A2CB48 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12EBD2C086061EB4FF94CB0A /* Pods-ElenaCode.debug.xcconfig */,
+				0A4459BED22CA00059C6F813 /* Pods-ElenaCode.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5B3CB03951A725C2A4D91C10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB15991215774AF1A61F8ECD /* libPods-ElenaCode.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E16831291D21217800E02674 = {
+			isa = PBXGroup;
+			children = (
+				E16831341D21217800E02674 /* ElenaCode */,
+				E168314E1D21217800E02674 /* ElenaCodeTests */,
+				E16831591D21217800E02674 /* ElenaCodeUITests */,
+				E16831331D21217800E02674 /* Products */,
+				34AD6A4AD70BEE7F75A2CB48 /* Pods */,
+				5B3CB03951A725C2A4D91C10 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E16831331D21217800E02674 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E16831321D21217800E02674 /* ElenaCode.app */,
+				E168314B1D21217800E02674 /* ElenaCodeTests.xctest */,
+				E16831561D21217800E02674 /* ElenaCodeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E16831341D21217800E02674 /* ElenaCode */ = {
+			isa = PBXGroup;
+			children = (
+				E16831381D21217800E02674 /* AppDelegate.h */,
+				E16831391D21217800E02674 /* AppDelegate.m */,
+				E168313B1D21217800E02674 /* ViewController.h */,
+				E168313C1D21217800E02674 /* ViewController.m */,
+				E168313E1D21217800E02674 /* Main.storyboard */,
+				E16831411D21217800E02674 /* Assets.xcassets */,
+				E16831431D21217800E02674 /* LaunchScreen.storyboard */,
+				E16831461D21217800E02674 /* Info.plist */,
+				E16831351D21217800E02674 /* Supporting Files */,
+			);
+			path = ElenaCode;
+			sourceTree = "<group>";
+		};
+		E16831351D21217800E02674 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E16831361D21217800E02674 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E168314E1D21217800E02674 /* ElenaCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				E168314F1D21217800E02674 /* ElenaCodeTests.m */,
+				E16831511D21217800E02674 /* Info.plist */,
+			);
+			path = ElenaCodeTests;
+			sourceTree = "<group>";
+		};
+		E16831591D21217800E02674 /* ElenaCodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E168315A1D21217800E02674 /* ElenaCodeUITests.m */,
+				E168315C1D21217800E02674 /* Info.plist */,
+			);
+			path = ElenaCodeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E16831311D21217800E02674 /* ElenaCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E168315F1D21217800E02674 /* Build configuration list for PBXNativeTarget "ElenaCode" */;
+			buildPhases = (
+				FD529997B29290D663B35219 /* [CP] Check Pods Manifest.lock */,
+				E168312E1D21217800E02674 /* Sources */,
+				E168312F1D21217800E02674 /* Frameworks */,
+				E16831301D21217800E02674 /* Resources */,
+				4B03610A6B8E2708FEF6B613 /* [CP] Embed Pods Frameworks */,
+				C3A7610C0A9E96CEA435DFF4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ElenaCode;
+			productName = ElenaCode;
+			productReference = E16831321D21217800E02674 /* ElenaCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E168314A1D21217800E02674 /* ElenaCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E16831621D21217800E02674 /* Build configuration list for PBXNativeTarget "ElenaCodeTests" */;
+			buildPhases = (
+				E16831471D21217800E02674 /* Sources */,
+				E16831481D21217800E02674 /* Frameworks */,
+				E16831491D21217800E02674 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E168314D1D21217800E02674 /* PBXTargetDependency */,
+			);
+			name = ElenaCodeTests;
+			productName = ElenaCodeTests;
+			productReference = E168314B1D21217800E02674 /* ElenaCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E16831551D21217800E02674 /* ElenaCodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E16831651D21217800E02674 /* Build configuration list for PBXNativeTarget "ElenaCodeUITests" */;
+			buildPhases = (
+				E16831521D21217800E02674 /* Sources */,
+				E16831531D21217800E02674 /* Frameworks */,
+				E16831541D21217800E02674 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E16831581D21217800E02674 /* PBXTargetDependency */,
+			);
+			name = ElenaCodeUITests;
+			productName = ElenaCodeUITests;
+			productReference = E16831561D21217800E02674 /* ElenaCodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E168312A1D21217800E02674 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = elena;
+				TargetAttributes = {
+					E16831311D21217800E02674 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					E168314A1D21217800E02674 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = E16831311D21217800E02674;
+					};
+					E16831551D21217800E02674 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = E16831311D21217800E02674;
+					};
+				};
+			};
+			buildConfigurationList = E168312D1D21217800E02674 /* Build configuration list for PBXProject "ElenaCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E16831291D21217800E02674;
+			productRefGroup = E16831331D21217800E02674 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E16831311D21217800E02674 /* ElenaCode */,
+				E168314A1D21217800E02674 /* ElenaCodeTests */,
+				E16831551D21217800E02674 /* ElenaCodeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E16831301D21217800E02674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16831451D21217800E02674 /* LaunchScreen.storyboard in Resources */,
+				E16831421D21217800E02674 /* Assets.xcassets in Resources */,
+				E16831401D21217800E02674 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16831491D21217800E02674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16831541D21217800E02674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B03610A6B8E2708FEF6B613 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-ElenaCode/Pods-ElenaCode-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3A7610C0A9E96CEA435DFF4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-ElenaCode/Pods-ElenaCode-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD529997B29290D663B35219 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E168312E1D21217800E02674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E168313D1D21217800E02674 /* ViewController.m in Sources */,
+				E168313A1D21217800E02674 /* AppDelegate.m in Sources */,
+				E16831371D21217800E02674 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16831471D21217800E02674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16831501D21217800E02674 /* ElenaCodeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16831521D21217800E02674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E168315B1D21217800E02674 /* ElenaCodeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E168314D1D21217800E02674 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E16831311D21217800E02674 /* ElenaCode */;
+			targetProxy = E168314C1D21217800E02674 /* PBXContainerItemProxy */;
+		};
+		E16831581D21217800E02674 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E16831311D21217800E02674 /* ElenaCode */;
+			targetProxy = E16831571D21217800E02674 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E168313E1D21217800E02674 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E168313F1D21217800E02674 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E16831431D21217800E02674 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E16831441D21217800E02674 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E168315D1D21217800E02674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E168315E1D21217800E02674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E16831601D21217800E02674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12EBD2C086061EB4FF94CB0A /* Pods-ElenaCode.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ElenaCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "friday-holiday.ElenaCode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E16831611D21217800E02674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A4459BED22CA00059C6F813 /* Pods-ElenaCode.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ElenaCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "friday-holiday.ElenaCode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E16831631D21217800E02674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ElenaCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "friday-holiday.ElenaCodeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElenaCode.app/ElenaCode";
+			};
+			name = Debug;
+		};
+		E16831641D21217800E02674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ElenaCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "friday-holiday.ElenaCodeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElenaCode.app/ElenaCode";
+			};
+			name = Release;
+		};
+		E16831661D21217800E02674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ElenaCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "friday-holiday.ElenaCodeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ElenaCode;
+			};
+			name = Debug;
+		};
+		E16831671D21217800E02674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ElenaCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "friday-holiday.ElenaCodeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ElenaCode;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E168312D1D21217800E02674 /* Build configuration list for PBXProject "ElenaCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E168315D1D21217800E02674 /* Debug */,
+				E168315E1D21217800E02674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E168315F1D21217800E02674 /* Build configuration list for PBXNativeTarget "ElenaCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E16831601D21217800E02674 /* Debug */,
+				E16831611D21217800E02674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E16831621D21217800E02674 /* Build configuration list for PBXNativeTarget "ElenaCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E16831631D21217800E02674 /* Debug */,
+				E16831641D21217800E02674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E16831651D21217800E02674 /* Build configuration list for PBXNativeTarget "ElenaCodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E16831661D21217800E02674 /* Debug */,
+				E16831671D21217800E02674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E168312A1D21217800E02674 /* Project object */;
+}

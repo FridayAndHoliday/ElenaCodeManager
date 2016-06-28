@@ -15,6 +15,8 @@
 		E16830C71D211E5600E02674 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16830C51D211E5600E02674 /* LaunchScreen.storyboard */; };
 		E16830D21D211E5600E02674 /* ElenaUnitTestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E16830D11D211E5600E02674 /* ElenaUnitTestDemoTests.m */; };
 		E16830DD1D211E5600E02674 /* ElenaUnitTestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E16830DC1D211E5600E02674 /* ElenaUnitTestDemoUITests.m */; };
+		E168316A1D21223100E02674 /* ElenaStack.m in Sources */ = {isa = PBXBuildFile; fileRef = E16831691D21223100E02674 /* ElenaStack.m */; };
+		E168316C1D21226000E02674 /* StackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E168316B1D21226000E02674 /* StackTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		E16830D81D211E5600E02674 /* ElenaUnitTestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElenaUnitTestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E16830DC1D211E5600E02674 /* ElenaUnitTestDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElenaUnitTestDemoUITests.m; sourceTree = "<group>"; };
 		E16830DE1D211E5600E02674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E16831681D21223000E02674 /* ElenaStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElenaStack.h; sourceTree = "<group>"; };
+		E16831691D21223100E02674 /* ElenaStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElenaStack.m; sourceTree = "<group>"; };
+		E168316B1D21226000E02674 /* StackTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,8 @@
 				E16830BB1D211E5600E02674 /* AppDelegate.m */,
 				E16830BD1D211E5600E02674 /* ViewController.h */,
 				E16830BE1D211E5600E02674 /* ViewController.m */,
+				E16831681D21223000E02674 /* ElenaStack.h */,
+				E16831691D21223100E02674 /* ElenaStack.m */,
 				E16830C01D211E5600E02674 /* Main.storyboard */,
 				E16830C31D211E5600E02674 /* Assets.xcassets */,
 				E16830C51D211E5600E02674 /* LaunchScreen.storyboard */,
@@ -125,6 +132,7 @@
 		E16830D01D211E5600E02674 /* ElenaUnitTestDemoTests */ = {
 			isa = PBXGroup;
 			children = (
+				E168316B1D21226000E02674 /* StackTests.m */,
 				E16830D11D211E5600E02674 /* ElenaUnitTestDemoTests.m */,
 				E16830D31D211E5600E02674 /* Info.plist */,
 			);
@@ -272,6 +280,7 @@
 			files = (
 				E16830BF1D211E5600E02674 /* ViewController.m in Sources */,
 				E16830BC1D211E5600E02674 /* AppDelegate.m in Sources */,
+				E168316A1D21223100E02674 /* ElenaStack.m in Sources */,
 				E16830B91D211E5600E02674 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E168316C1D21226000E02674 /* StackTests.m in Sources */,
 				E16830D21D211E5600E02674 /* ElenaUnitTestDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +506,7 @@
 				E16830E31D211E5600E02674 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E16830E41D211E5600E02674 /* Build configuration list for PBXNativeTarget "ElenaUnitTestDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +515,7 @@
 				E16830E61D211E5600E02674 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E16830E71D211E5600E02674 /* Build configuration list for PBXNativeTarget "ElenaUnitTestDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +524,7 @@
 				E16830E91D211E5600E02674 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

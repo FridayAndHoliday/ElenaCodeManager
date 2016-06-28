@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C46E8B6F60E8D1749A87F94C /* libPods-ElenaRACDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58AC318C5224420F418B15E8 /* libPods-ElenaRACDemo.a */; };
+		E16830F81D21200300E02674 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E16830F71D21200300E02674 /* main.m */; };
+		E16830FB1D21200300E02674 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E16830FA1D21200300E02674 /* AppDelegate.m */; };
+		E16830FE1D21200300E02674 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E16830FD1D21200300E02674 /* ViewController.m */; };
+		E16831011D21200300E02674 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16830FF1D21200300E02674 /* Main.storyboard */; };
+		E16831031D21200300E02674 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E16831021D21200300E02674 /* Assets.xcassets */; };
+		E16831061D21200300E02674 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16831041D21200300E02674 /* LaunchScreen.storyboard */; };
+		E16831111D21200300E02674 /* ElenaRACDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E16831101D21200300E02674 /* ElenaRACDemoTests.m */; };
+		E168311C1D21200400E02674 /* ElenaRACDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E168311B1D21200400E02674 /* ElenaRACDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E168310D1D21200300E02674 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E16830EB1D21200300E02674 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E16830F21D21200300E02674;
+			remoteInfo = ElenaRACDemo;
+		};
+		E16831181D21200300E02674 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E16830EB1D21200300E02674 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E16830F21D21200300E02674;
+			remoteInfo = ElenaRACDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		58AC318C5224420F418B15E8 /* libPods-ElenaRACDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ElenaRACDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E04CF6CAC2D9A4A50851A1B /* Pods-ElenaRACDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElenaRACDemo.release.xcconfig"; path = "../Pods/Target Support Files/Pods-ElenaRACDemo/Pods-ElenaRACDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E16830F31D21200300E02674 /* ElenaRACDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElenaRACDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E16830F71D21200300E02674 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E16830F91D21200300E02674 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E16830FA1D21200300E02674 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E16830FC1D21200300E02674 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E16830FD1D21200300E02674 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E16831001D21200300E02674 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E16831021D21200300E02674 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E16831051D21200300E02674 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E16831071D21200300E02674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E168310C1D21200300E02674 /* ElenaRACDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElenaRACDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E16831101D21200300E02674 /* ElenaRACDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElenaRACDemoTests.m; sourceTree = "<group>"; };
+		E16831121D21200300E02674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E16831171D21200300E02674 /* ElenaRACDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElenaRACDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E168311B1D21200400E02674 /* ElenaRACDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElenaRACDemoUITests.m; sourceTree = "<group>"; };
+		E168311D1D21200400E02674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE274B27A34DB4F47CF66CB5 /* Pods-ElenaRACDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElenaRACDemo.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-ElenaRACDemo/Pods-ElenaRACDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E16830F01D21200300E02674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C46E8B6F60E8D1749A87F94C /* libPods-ElenaRACDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16831091D21200300E02674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16831141D21200300E02674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25F90DE8C83A47A79865D72E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE274B27A34DB4F47CF66CB5 /* Pods-ElenaRACDemo.debug.xcconfig */,
+				9E04CF6CAC2D9A4A50851A1B /* Pods-ElenaRACDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		52EC86E2C86DAFCD32E7936C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58AC318C5224420F418B15E8 /* libPods-ElenaRACDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E16830EA1D21200300E02674 = {
+			isa = PBXGroup;
+			children = (
+				E16830F51D21200300E02674 /* ElenaRACDemo */,
+				E168310F1D21200300E02674 /* ElenaRACDemoTests */,
+				E168311A1D21200300E02674 /* ElenaRACDemoUITests */,
+				E16830F41D21200300E02674 /* Products */,
+				25F90DE8C83A47A79865D72E /* Pods */,
+				52EC86E2C86DAFCD32E7936C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E16830F41D21200300E02674 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E16830F31D21200300E02674 /* ElenaRACDemo.app */,
+				E168310C1D21200300E02674 /* ElenaRACDemoTests.xctest */,
+				E16831171D21200300E02674 /* ElenaRACDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E16830F51D21200300E02674 /* ElenaRACDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E16830F91D21200300E02674 /* AppDelegate.h */,
+				E16830FA1D21200300E02674 /* AppDelegate.m */,
+				E16830FC1D21200300E02674 /* ViewController.h */,
+				E16830FD1D21200300E02674 /* ViewController.m */,
+				E16830FF1D21200300E02674 /* Main.storyboard */,
+				E16831021D21200300E02674 /* Assets.xcassets */,
+				E16831041D21200300E02674 /* LaunchScreen.storyboard */,
+				E16831071D21200300E02674 /* Info.plist */,
+				E16830F61D21200300E02674 /* Supporting Files */,
+			);
+			path = ElenaRACDemo;
+			sourceTree = "<group>";
+		};
+		E16830F61D21200300E02674 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E16830F71D21200300E02674 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E168310F1D21200300E02674 /* ElenaRACDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E16831101D21200300E02674 /* ElenaRACDemoTests.m */,
+				E16831121D21200300E02674 /* Info.plist */,
+			);
+			path = ElenaRACDemoTests;
+			sourceTree = "<group>";
+		};
+		E168311A1D21200300E02674 /* ElenaRACDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E168311B1D21200400E02674 /* ElenaRACDemoUITests.m */,
+				E168311D1D21200400E02674 /* Info.plist */,
+			);
+			path = ElenaRACDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E16830F21D21200300E02674 /* ElenaRACDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E16831201D21200400E02674 /* Build configuration list for PBXNativeTarget "ElenaRACDemo" */;
+			buildPhases = (
+				7CFA44C92189F7F318415D14 /* [CP] Check Pods Manifest.lock */,
+				E16830EF1D21200300E02674 /* Sources */,
+				E16830F01D21200300E02674 /* Frameworks */,
+				E16830F11D21200300E02674 /* Resources */,
+				55B25A41855B48CE05BEE9FF /* [CP] Embed Pods Frameworks */,
+				21C838196CA5BCF99602D753 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ElenaRACDemo;
+			productName = ElenaRACDemo;
+			productReference = E16830F31D21200300E02674 /* ElenaRACDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E168310B1D21200300E02674 /* ElenaRACDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E16831231D21200400E02674 /* Build configuration list for PBXNativeTarget "ElenaRACDemoTests" */;
+			buildPhases = (
+				E16831081D21200300E02674 /* Sources */,
+				E16831091D21200300E02674 /* Frameworks */,
+				E168310A1D21200300E02674 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E168310E1D21200300E02674 /* PBXTargetDependency */,
+			);
+			name = ElenaRACDemoTests;
+			productName = ElenaRACDemoTests;
+			productReference = E168310C1D21200300E02674 /* ElenaRACDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E16831161D21200300E02674 /* ElenaRACDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E16831261D21200400E02674 /* Build configuration list for PBXNativeTarget "ElenaRACDemoUITests" */;
+			buildPhases = (
+				E16831131D21200300E02674 /* Sources */,
+				E16831141D21200300E02674 /* Frameworks */,
+				E16831151D21200300E02674 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E16831191D21200300E02674 /* PBXTargetDependency */,
+			);
+			name = ElenaRACDemoUITests;
+			productName = ElenaRACDemoUITests;
+			productReference = E16831171D21200300E02674 /* ElenaRACDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E16830EB1D21200300E02674 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = elena;
+				TargetAttributes = {
+					E16830F21D21200300E02674 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					E168310B1D21200300E02674 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = E16830F21D21200300E02674;
+					};
+					E16831161D21200300E02674 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = E16830F21D21200300E02674;
+					};
+				};
+			};
+			buildConfigurationList = E16830EE1D21200300E02674 /* Build configuration list for PBXProject "ElenaRACDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E16830EA1D21200300E02674;
+			productRefGroup = E16830F41D21200300E02674 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E16830F21D21200300E02674 /* ElenaRACDemo */,
+				E168310B1D21200300E02674 /* ElenaRACDemoTests */,
+				E16831161D21200300E02674 /* ElenaRACDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E16830F11D21200300E02674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16831061D21200300E02674 /* LaunchScreen.storyboard in Resources */,
+				E16831031D21200300E02674 /* Assets.xcassets in Resources */,
+				E16831011D21200300E02674 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E168310A1D21200300E02674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16831151D21200300E02674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21C838196CA5BCF99602D753 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-ElenaRACDemo/Pods-ElenaRACDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55B25A41855B48CE05BEE9FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-ElenaRACDemo/Pods-ElenaRACDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CFA44C92189F7F318415D14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E16830EF1D21200300E02674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16830FE1D21200300E02674 /* ViewController.m in Sources */,
+				E16830FB1D21200300E02674 /* AppDelegate.m in Sources */,
+				E16830F81D21200300E02674 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16831081D21200300E02674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16831111D21200300E02674 /* ElenaRACDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16831131D21200300E02674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E168311C1D21200400E02674 /* ElenaRACDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E168310E1D21200300E02674 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E16830F21D21200300E02674 /* ElenaRACDemo */;
+			targetProxy = E168310D1D21200300E02674 /* PBXContainerItemProxy */;
+		};
+		E16831191D21200300E02674 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E16830F21D21200300E02674 /* ElenaRACDemo */;
+			targetProxy = E16831181D21200300E02674 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E16830FF1D21200300E02674 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E16831001D21200300E02674 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E16831041D21200300E02674 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E16831051D21200300E02674 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E168311E1D21200400E02674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E168311F1D21200400E02674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E16831211D21200400E02674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE274B27A34DB4F47CF66CB5 /* Pods-ElenaRACDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ElenaRACDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "friday-holiday.ElenaRACDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E16831221D21200400E02674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E04CF6CAC2D9A4A50851A1B /* Pods-ElenaRACDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ElenaRACDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "friday-holiday.ElenaRACDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E16831241D21200400E02674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ElenaRACDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "friday-holiday.ElenaRACDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElenaRACDemo.app/ElenaRACDemo";
+			};
+			name = Debug;
+		};
+		E16831251D21200400E02674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ElenaRACDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "friday-holiday.ElenaRACDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElenaRACDemo.app/ElenaRACDemo";
+			};
+			name = Release;
+		};
+		E16831271D21200400E02674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ElenaRACDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "friday-holiday.ElenaRACDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ElenaRACDemo;
+			};
+			name = Debug;
+		};
+		E16831281D21200400E02674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ElenaRACDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "friday-holiday.ElenaRACDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ElenaRACDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E16830EE1D21200300E02674 /* Build configuration list for PBXProject "ElenaRACDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E168311E1D21200400E02674 /* Debug */,
+				E168311F1D21200400E02674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E16831201D21200400E02674 /* Build configuration list for PBXNativeTarget "ElenaRACDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E16831211D21200400E02674 /* Debug */,
+				E16831221D21200400E02674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E16831231D21200400E02674 /* Build configuration list for PBXNativeTarget "ElenaRACDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E16831241D21200400E02674 /* Debug */,
+				E16831251D21200400E02674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E16831261D21200400E02674 /* Build configuration list for PBXNativeTarget "ElenaRACDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E16831271D21200400E02674 /* Debug */,
+				E16831281D21200400E02674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E16830EB1D21200300E02674 /* Project object */;
+}
