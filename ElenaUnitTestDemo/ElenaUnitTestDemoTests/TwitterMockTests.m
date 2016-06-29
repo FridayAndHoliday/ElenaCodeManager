@@ -51,11 +51,12 @@
     
     //模拟fetchTweets方法返回预设值
     Twitter *testTweet = [[Twitter alloc] init];
-    testTweet.userName = @"齐滇大圣";
+    testTweet.userName = @"齐天大圣";
     Twitter *testTweet2 = [[Twitter alloc] init];
     testTweet2.userName = @"美猴王";
     NSArray *tweetArray = @[testTweet,testTweet2];
     OCMStub([mockConnection fetchTweets]).andReturn(tweetArray);
+
     
     //模拟出来一个view类
     id mockView = OCMClassMock([TwitterView class]);
@@ -65,6 +66,9 @@
     [controller updateTweetView];
     
     
+    //验证是否执行了fetchTweets方法
+    OCMVerify([mockConnection fetchTweets]);
+    
     //---------验证使用对应参数的方法是否被调用-----------
     
     //成功
@@ -73,10 +77,39 @@
     OCMVerify([mockView addTweet:[OCMArg any]]);   ///[OCMArg any]匹配所有的参数值，既testTweet和testTweet2
     
     
-    //失败，因为执行[controller updateTweetView];的时候，mockView没有添加testTweet3，所以验证不通过
-    Twitter *testTweet3 = [[Twitter alloc] init];
-    testTweet3.userName = @"斗战胜佛";
-    OCMVerify([mockView addTweet:testTweet3]);
+//    //失败，因为执行[controller updateTweetView];的时候，mockView没有添加testTweet3，所以验证不通过
+//    Twitter *testTweet3 = [[Twitter alloc] init];
+//    testTweet3.userName = @"斗战胜佛";
+//    OCMVerify([mockView addTweet:testTweet3]);
+}
+
+
+//例子3
+- (void)testStrictMock3 {
+    
+//    id classMock = OCMClassMock([TwitterView class]);
+//    //这个classMock需要执行addTweet方法且参数不为nil。  不然的话会抛出异常
+//    OCMExpect([classMock addTweet:[OCMArg isNotNil]]);
+//    OCMStub([classMock addTweet:[OCMArg isNotNil]]);
+//    
+//    /* 如果不执行以下代码的话会抛出异常 */
+//    Twitter *testTweet = [[Twitter alloc] init];
+//    testTweet.userName = @"齐滇大圣";
+//    [classMock addTweet:testTweet];
+//    
+//    OCMVerifyAll(classMock);
+    
+    
+    /*-----------------------*/
+    id classMock = OCMStrictClassMock([TwitterView class]);
+    OCMExpect([classMock addTweet:[OCMArg isNotNil]]);
+    //OCMStub([classMock addTweet:[OCMArg isNotNil]]);
+
+    Twitter *testTweet = [[Twitter alloc] init];
+    testTweet.userName = @"齐滇大圣";
+    [classMock addTweet:testTweet]; // this will throw an exception
+
+   // OCMVerifyAll(classMock);
 }
 
 @end
