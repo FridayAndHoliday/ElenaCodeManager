@@ -9,7 +9,7 @@ import {
   AppRegistry,
   StyleSheet,
   Text,
-  View
+  View；
 } from 'react-native';
 
 var nativeSample = require('react-native').NativeModules.JSCallNativeSample;

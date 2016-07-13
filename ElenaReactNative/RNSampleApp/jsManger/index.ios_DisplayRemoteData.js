@@ -10,20 +10,15 @@ import {
   StyleSheet,
   Image,
   Text,
-  ListView,
   View
 } from 'react-native';
+var MOCKED_MOVIES_DATA = [{title:'标题',year:'2016',posters:{thumbnail:'https://facebook.github.io/react/img/logo_og.png'}},];
 var REQUEST_URL = 'https://raw.githubusercontent.com/facebook/react-native/master/docs/MoviesExample.json';
-
 class RNSampleApp extends Component {
+
   constructor(props) {
     super(props);
-    this.state = {
-      dataSource: new ListView.DataSource({
-        rowHasChanged:(row1, row2) => row1 !== row2,
-    }),
-    loaded: false,
-  };
+    this.state = {movies: null,};
     this.fetchData = this.fetchData.bind(this);
   }
   componentDidMount() {
@@ -35,8 +30,7 @@ class RNSampleApp extends Component {
       .then((response) => response.json())
       .then((responseData) => {
         this.setState({
-          dataSource: this.state.dataSource.cloneWithRows(responseData.movies),
-          loaded: true,
+          movies: responseData.movies,
         });
       })
       .done();
@@ -53,7 +47,7 @@ class RNSampleApp extends Component {
   renderMovie(movie) {
     return (
       <View style={styles.container}>
-      <Image
+      <Image 
        source = {{uri:movie.posters.thumbnail}}
        style = {styles.thumbnail}
        />
@@ -70,17 +64,13 @@ class RNSampleApp extends Component {
   }
 
   render() {
-    if (!this.state.loaded) {
+    if (!this.state.movies) {
       console.log('没有有数据');
       return this.renderLoadingView();
     }
-    return (
-     <ListView
-      dataSource = {this.state.dataSource}
-      renderRow = {this.renderMovie}
-      style = {styles.listView}
-     />
-    );
+    console.log('有数据啦');
+    var movie = this.state.movies[0];
+    return this.renderMovie(movie);
   }
 }
 
@@ -108,11 +98,7 @@ const styles = StyleSheet.create({
   year: {
     textAlign: 'center',
   },
-  listView: {
-    paddingTop: 20,
-    backgroundColor: '#F5FCFF',
-  },
-
+  
 });
 
 AppRegistry.registerComponent('RNSampleApp', () => RNSampleApp);
